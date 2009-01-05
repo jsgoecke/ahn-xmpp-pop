@@ -1,3 +1,5 @@
 === Overview
 
 Sample Ahdearsion project used to show how to build your first component in Adhearsion. This code example accompanies this screencast:
+
+http://blip.tv/file/1639896/

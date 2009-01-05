@@ -1,0 +1,14 @@
+ INFO ahn: Adhearsion initialized!
+ INFO agi: Handling call with variables {:request=>#<URI::Generic:0xc52678 URL:agi://localhost>, :callingani2=>0, :type=>"SIP", :priority=>1, :query=>{}, :accountcode=>"", :language=>"en", :callerid=>nil, :calleridname=>"John Doe", :enhanced=>0.0, :context=>"adhearsion", :dnid=>"test", :extension=>"test", :type_of_calling_number=>:unknown, :callingpres=>0, :rdnis=>nil, :callingtns=>0, :channel=>"SIP/127.0.0.1-00836000", :network=>true, :uniqueid=>1231194304.0}
+DEBUG agi: >>> ANSWER
+DEBUG agi: <<< 200 result=0
+
+DEBUG send_im: Sent an IM when John Doe called...
+DEBUG agi: >>> EXEC playback hello-world
+DEBUG agi: <<< 200 result=0
+
+DEBUG agi: >>> HANGUP
+DEBUG agi: <<< 200 result=1
+
+ INFO ahn: Shutting down gracefully at Mon Jan 05 14:50:52 -0800 2009.
+ INFO events: Performing a graceful stop of events subsystem

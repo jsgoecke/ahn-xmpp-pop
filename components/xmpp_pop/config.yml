@@ -1,0 +1,9 @@
+#Account that Adhearsion component will connect to
+#in order to send an IM
+:gmail_credentials:
+    :uname: uname@gmail.com
+    :passwd: pass
+
+#Account where the IM will be sent to notify
+#of the person calling
+:gmail_user: uname@gmail.com
